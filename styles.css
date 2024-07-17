@@ -1,0 +1,193 @@
+/*
+ * Author: Nyasha Makaya
+ * CS 132 Spring 2024
+ * Date: 19 April 2024
+ *
+ * This styles.css page for the history of the internet website. 
+ * It includes all the styling for the images, the flex containers
+ * floating images, and all the different text throughout the website.
+ */
+
+/* Provided starter: styles for all flex containers */
+main, footer, #examples, #header-heights,  
+#html-comparison, #html-comparison > div, .main-structure, #examples > div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+/* Provided starter: styles for flex containers that are in column layout */
+body, #html-comparison > div, #examples > div{
+  flex-direction: column;
+}
+
+body, nav ul, h1 {
+  margin: 0;
+}
+
+aside, footer, header h1 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav li, header h1 {
+  display: inline-block;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+aside, aside a {
+  color: #fdfdfd;
+  margin-left: 10px;
+  min-width: 200px;
+}
+
+footer, header h1 {
+  height: 60px;
+}
+
+p {
+  line-height: 1.4;
+}
+
+nav, #examples, aside {
+  background-color: #3b6065;
+}
+
+header code, header h1, footer code, #fake-h1, main a, footer, h2 {
+  color:#3b6065;
+}
+
+body {
+  padding: 0;
+  font-family: 'Ubuntu', Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+aside a:visited, nav a {
+  color: #c9e4ca;
+}
+
+figure {
+  float: right;
+}
+
+nav li {
+  margin-left: 15px;
+} 
+
+footer {
+  padding-bottom: 10px;
+}
+
+pre {
+  background-color: #d3d3d3;
+  overflow-x: scroll;
+}
+
+#examples > div, #html-comparison > div {
+  width: 45%;
+}
+
+#examples, main, main > section {
+  padding: 10px;
+}
+
+footer code, header code{
+  font-size: 24pt;
+}
+
+#examples > div {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+header #header-heigths, footer {
+  text-align: center;
+}
+
+#examples {
+  margin: 5px;
+}
+
+#header-heights, body {
+  background-color: #c9e4ca;
+}
+
+code, #fake-h1 {
+  font-weight: bold;
+}
+
+figcaption, blockquote, #examples > div > p {
+  font-style: italic;
+}
+
+nav ul, #html-comparison div {
+  padding: 5px;
+}
+
+#fake-h1 {
+  font-size: 18pt;
+  margin-bottom: 0;
+}
+
+main > section, #examples > div {
+  background-color: #fdfdfd;
+}
+
+/*formatting the dog image */
+
+div > img {
+  width: 160px;
+}
+
+#xkcd {
+  width: 50%;
+  max-width: 400px;
+}
+
+#xkcd > img, #w3c > img {
+  width: 100%;
+}
+
+#w3c {
+  width: 120px;
+  margin-top: 0px;
+  margin: 20px;
+}
+
+#html-comparison {
+  text-align: center;
+}
+
+#html-comparison div {
+  border: 2px black solid;
+}
+
+#html-comparison > div {
+  border: 4px black solid;
+  height: 300px;
+}
+
+.main-structure {
+  flex-grow: 1;
+}
+
+.main-structure > div {
+  width: 40%;
+
+}
+
+/*Bottom Quote */
+blockquote {
+  border-bottom: 2px solid black;
+}
+
+#tim-quote figcaption, #examples > div > p {
+  text-align: right;
+}
